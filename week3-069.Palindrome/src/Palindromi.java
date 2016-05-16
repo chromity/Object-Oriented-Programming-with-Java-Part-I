@@ -2,11 +2,23 @@ import java.util.Scanner;
 
 public class Palindromi {
 
-    public static boolean palindrome(String text) {
-        // write code here
-        return false;
+    public static String reverse(String text) {
+        int i = text.length() - 1;
+        String reverse = "";
+        while (i >= 0) {
+            reverse += text.charAt(i);
+            i--;
+        }
+        
+        return reverse;
     }
 
+    public static boolean palindrome(String text) {
+        boolean isPalindrome = text.equals(reverse(text));
+        
+        return isPalindrome;
+    }
+    
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         
