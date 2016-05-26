@@ -24,7 +24,16 @@ public class Money {
     }
     
     public Money plus(Money added) {
-        Money newMoney = new Money(this.euros() + added.euros(), this.cents() + added.cents());
+        int newEuros = this.euros() + added.euros();
+        int newCents = this.cents() + added.cents();
+        
+        if (newCents > 99) {
+            newCents -= 100;
+            newEuros++;
+        }
+        
+        
+        Money newMoney = new Money(newEuros, newCents);
         
         return newMoney;
     }
