@@ -128,6 +128,7 @@ Temporary Items
 /week3-067.TheVariance/build/
 /week3-068.MoreThanOnce/build/
 /week3-069.Palindrome/build/
+<<<<<<< HEAD
 /2013-OOProgrammingWithJava-PART1/week1-000.Sandbox/nbproject/private/
 /2013-OOProgrammingWithJava-PART1/week5-087.ApartmentComparison/nbproject/private/
 /2013-OOProgrammingWithJava-PART1/week5-084.OverloadedCounter/nbproject/private/
@@ -172,3 +173,19 @@ Temporary Items
 /week6-106.BinarySearch/nbproject/private/
 /week6-094.PhoneBook/build/
 /week6-095.Money/build/
+=======
+/week4-072.2.YourFirstMoneyTransfer/nbproject/private/
+/week4-072.3.MoneyTransfers/nbproject/private/
+/week4-073.Product/nbproject/private/
+/week4-074.Multiplier/nbproject/private/
+/week4-075.DecreasingCounter/nbproject/private/
+/week4-076.Menu/nbproject/private/
+/week4-077.LyyraCard/nbproject/private/
+/week4-078.ClockUsingCounter/nbproject/private/
+/week4-079.NumberStatistics/nbproject/private/
+/week4-080.Dice/nbproject/private/
+/week4-081.PasswordRandomizer/nbproject/private/
+/week4-082.Lottery/nbproject/private/
+/week4-083.HangmanLogic/nbproject/private/
+/week3-071.SmartCombining/build/
+>>>>>>> origin/master
