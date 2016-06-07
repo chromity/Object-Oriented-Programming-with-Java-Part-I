@@ -197,3 +197,5 @@ Temporary Items
 week6-096.SumOfArray/nbproject/project.properties
 /week6-099.ArrayToStars/build/
 /week6-100.NightSky/build/
+*.properties
+/week6-101.Library/build/
