@@ -17,6 +17,8 @@ public class Main {
         System.out.println();
 
         boolean tulos = BinarySearch.search(taulukko, Integer.parseInt(etsittavaLuku));
+        
+        System.out.println(tulos);
 
         // Print here the result
     }
