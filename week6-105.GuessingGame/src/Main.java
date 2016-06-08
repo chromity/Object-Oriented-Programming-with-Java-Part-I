@@ -4,5 +4,6 @@ public class Main {
         // test your program here
         GuessingGame game = new GuessingGame();
         game.play(1,10);
-    }    
+    }
+   
 }
